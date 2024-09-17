@@ -1,0 +1,71 @@
+part of 'resources.dart';
+
+class _ImageResource {
+  final drawable = (
+    companyLogo: 'assets/images/company_logo.png',
+    categories: (
+      constructionMaterial: 'assets/images/product-categories/category-construction-material.png',
+      door: 'assets/images/product-categories/category-door.png',
+      electricSystem: 'assets/images/product-categories/category-electric-system.png',
+      householdAppliance: 'assets/images/product-categories/category-household-appliance.png',
+      material: 'assets/images/product-categories/category-material.png',
+      other: 'assets/images/product-categories/category-other.png',
+      paint: 'assets/images/product-categories/category-paint.png',
+      pipe: 'assets/images/product-categories/category-pipe.png',
+    ),
+    features: (
+      advisory: 'assets/images/features/feature-advisory.png',
+      compare: 'assets/images/features/feature-compare.png',
+      laws: 'assets/images/features/feature-laws.png',
+      market: 'assets/images/features/feature-market.png',
+      news: 'assets/images/features/feature-news.png',
+      projectInfo: 'assets/images/features/feature-project-info.png',
+      community: 'assets/images/features/feature-community.png',
+      favorite: 'assets/images/features/feature-favorite.png',
+    ),
+  );
+
+  final vector = (
+    appLogo: 'assets/images/app-logo.svg',
+    appLogoNoBg: 'assets/images/app-logo-no-bg.svg',
+    add: 'assets/images/add.svg',
+    arrowBack: 'assets/images/arrow_back.svg',
+    visibility: 'assets/images/visibility.svg',
+    visibilityOff: 'assets/images/visibility_off.svg',
+    check: 'assets/images/check.svg',
+    close: 'assets/images/close.svg',
+    google: 'assets/images/google.svg',
+    placeHolder: 'assets/images/place_holder.svg',
+    galleryOutlined: 'assets/images/gallery-outlined.svg',
+    homeFilled: 'assets/images/home-filled.svg',
+    homeOutlined: 'assets/images/home-outlined.svg',
+    cartFilled: 'assets/images/cart-filled.svg',
+    cartOutlined: 'assets/images/cart-outlined.svg',
+    chatFilled: 'assets/images/chat-bold.svg',
+    chatOutlined: 'assets/images/chat-outlined.svg',
+    profileFilled: 'assets/images/profile-bold.svg',
+    profileOutlined: 'assets/images/profile-outlined.svg',
+    filterOutlined: 'assets/images/filter-outlined.svg',
+    searchOutlined: 'assets/images/search-outlined.svg',
+    starOutlined: 'assets/images/star-outlined.svg',
+    starBold: 'assets/images/star-bold.svg',
+    notificationOutlined: 'assets/images/notification-outlined.svg',
+    heartOutlined: 'assets/images/heart-outlined.svg',
+    heartFilled: 'assets/images/heart-filled.svg',
+    verified: 'assets/images/verified-filled.svg',
+    notFound: 'assets/images/not-found.svg',
+    sendOutlined: 'assets/images/send-outlined.svg',
+    moreOutlined: 'assets/images/more-outlined.svg',
+    editOutlined: 'assets/images/edit-outlined.svg',
+    uploadOutlined: 'assets/images/upload-outlined.svg',
+    locationOutlined: 'assets/images/location-outlined.svg',
+    locationFilled: 'assets/images/location-filled.svg',
+    productFilled: 'assets/images/product-filled.svg',
+    productOutlined: 'assets/images/product-outlined.svg',
+    supplierInfoFilled: 'assets/images/supplier-info-filled.svg',
+    supplierInfoOutlined: 'assets/images/supplier-info-outlined.svg',
+    error : 'assets/images/error.svg',
+    empty : 'assets/images/empty-box.svg'
+  );
+
+}

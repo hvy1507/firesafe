@@ -1,0 +1,215 @@
+part of 'resources.dart';
+
+class _StringResource {
+  final appName = 'app_name';
+  final navBar = (home: 'nav_bar.home', cart: 'nav_bar.cart', chat: 'nav_bar.chat', profile: 'nav_bar.profile');
+
+  final categories = (
+    material: 'categories.category_material',
+    constructionMaterial: 'categories.category_construction_material',
+    paint: 'categories.category_paint',
+    pipeCable: 'categories.category_pipe_cable',
+    electricSystem: 'categories.category_electric_system',
+    door: 'categories.category_door',
+    householdAppliance: 'categories.category_household_appliance',
+    other: 'categories.category_other',
+  );
+
+  final landingScreen = (
+    signIn: 'landing_screen.sign_in',
+    signUp: 'landing_screen.sign_up',
+    greeting: 'landing_screen.greeting',
+    guest: 'landing_screen.guest',
+  );
+
+  final signInScreen = (
+    signIn: 'sign_in_screen.sign_in',
+    signUp: 'sign_in_screen.sign_up',
+    email: 'sign_in_screen.email',
+    password: 'sign_in_screen.password',
+    noAccount: 'sign_in_screen.no_account',
+    emptyFieldWarning: 'sign_in_screen.empty_field_warning',
+    invalidCredentials: 'sign_in_screen.invalid_credentials',
+    enterEmail: 'sign_in_screen.enter_email',
+    enterPassword: 'sign_in_screen.enter_password',
+    forgotPassword: 'sign_in_screen.forgot_password',
+    signingIn: 'sign_in_screen.signing_in',
+    continueWith: 'sign_in_screen.continue_with',
+  );
+
+  final signUpScreen = (
+    signUpNewAccount: 'sign_up_screen.sign_up_new_account',
+    description: 'sign_up_screen.description',
+    yourName: 'sign_up_screen.your_name',
+    enterName: 'sign_up_screen.enter_name',
+    yourEmail: 'sign_up_screen.your_email',
+    enterEmail: 'sign_up_screen.enter_email',
+    emailExist: 'sign_up_screen.email_exist',
+    password: 'sign_up_screen.password',
+    enterPassword: 'sign_up_screen.enter_password',
+    repeatPassword: 'sign_up_screen.repeat_password',
+    passwordNotMatch: 'sign_up_screen.password_not_match',
+    passwordRequirement: 'sign_up_screen.password_requirement',
+    passwordLengthValidation: 'sign_up_screen.password_length_validation',
+    passwordCharacterValidation: 'sign_up_screen.password_character_validation',
+    passwordSpecialCharacterValidation: 'sign_up_screen.password_special_character_validation',
+    createAccount: 'sign_up_screen.create_account',
+    signingUp: 'sign_up_screen.signing_up',
+  );
+
+  final initialSetupScreen = (
+    greeting: 'initial_setup_screen.greeting',
+    yourNeed: 'initial_setup_screen.your_need',
+    buy: 'initial_setup_screen.buy',
+    sell: 'initial_setup_screen.sell',
+    displayName: 'initial_setup_screen.display_name',
+    businessName: 'initial_setup_screen.business_name',
+    establishedDate: 'initial_setup_screen.established_date',
+    save: 'initial_setup_screen.save',
+  );
+
+  final homeScreen = (
+    featureNews: 'home_screen.feature_news',
+    featureAdvisory: 'home_screen.feature_advisory',
+    featureMarketReport: 'home_screen.feature_market_report',
+    featureProjectInfo: 'home_screen.feature_project_info',
+    featureLaws: 'home_screen.feature_laws',
+    featureCompare: 'home_screen.feature_compare',
+    productCategory: 'home_screen.product_category',
+    search: 'home_screen.search',
+    suggestion: 'home_screen.suggestion',
+    featured: 'home_screen.featured',
+    news: 'home_screen.news',
+    community: 'home_screen.community',
+    favourite: 'home_screen.favourite_product'
+  );
+
+  final searchScreen = (searchHint: 'search_screen.search_hint',);
+
+  final moreScreen = (
+    profile: 'more_screen.profile',
+    registerSupplier: 'more_screen.register_supplier',
+    favoriteProducts: 'more_screen.favorite_products',
+    editProfile: 'more_screen.edit_profile',
+    signOut: 'more_screen.sign_out',
+    supplierInfo: 'more_screen.supplier_info'
+  );
+  final addProductScreen = (
+    name: 'add_product_screen.name',
+    origin: 'add_product_screen.origin',
+    brand: 'add_product_screen.brand',
+    model: 'add_product_screen.model',
+    shortDescription: 'add_product_screen.short_description',
+    available: 'add_product_screen.available',
+    warranty: 'add_product_screen.warranty',
+    packaging: 'add_product_screen.packaging',
+    shippingTime: 'add_product_screen.shipping_time',
+    sample: 'add_product_screen.sample',
+    productionRate: 'add_product_screen.production_rate',
+    accessories: 'add_product_screen.accessories',
+    postSupport: 'add_product_screen.post_support',
+    faq: 'add_product_screen.faq',
+    shape: 'add_product_screen.shape',
+    color: 'add_product_screen.color',
+    material: 'add_product_screen.material',
+    weight: 'add_product_screen.weight',
+    volume: 'add_product_screen.volume',
+    structure: 'add_product_screen.structure',
+    fireResistant: 'add_product_screen.fire_resistant',
+    waterResistant: 'add_product_screen.water_resistant',
+    applications: 'add_product_screen.applications',
+    additionalSpecification: 'add_product_screen.additional_specification',
+    price: 'add_product_screen.price',
+    maxPrice: 'add_product_screen.max_price',
+    minPrice: 'add_product_screen.min_price',
+    categories: 'add_product_screen.categories',
+    thumbnail: 'add_product_screen.thumbnail',
+    images: 'add_product_screen.images',
+    videos: 'add_product_screen.videos',
+    certificate: 'add_product_screen.certificate',
+    error: 'add_product_screen.error',
+    postProduct: 'add_product_screen.post_product',
+    addImages: 'add_product_screen.add_images',
+    yes: 'add_product_screen.yes',
+    no: 'add_product_screen.no',
+    addRow: 'add_product_screen.add_row',
+    removeRow: 'add_product_screen.remove_row',
+    pricing: 'add_product_screen.pricing',
+    fixedPrice: 'add_product_screen.fixed_price',
+    rangedPrice: 'add_product_screen.ranged_price',
+    property: 'add_product_screen.property',
+    value: 'add_product_screen.value',
+    required: 'add_product_screen.required',
+    addCertificate: 'add_product_screen.add_certificate',
+  );
+  final productDetailScreen = (
+    contactNow: 'product_detail_screen.contactNow',
+    readMore: 'product_detail_screen.readMore',
+    showLess: 'product_detail_screen.showLess',
+    providedBy: 'product_detail_screen.providedBy',
+    origin: 'product_detail_screen.origin',
+    brand: 'product_detail_screen.brand',
+    model: 'product_detail_screen.model',
+    shortDescription: 'product_detail_screen.short_description',
+    available: 'product_detail_screen.available',
+    warranty: 'product_detail_screen.warranty',
+    packaging: 'product_detail_screen.packaging',
+    shippingTime: 'product_detail_screen.shipping_time',
+    sample: 'product_detail_screen.sample',
+    productionRate: 'product_detail_screen.production_rate',
+    accessories: 'product_detail_screen.accessories',
+    postSupport: 'product_detail_screen.post_support',
+    faq: 'product_detail_screen.faq',
+    shape: 'product_detail_screen.shape',
+    color: 'product_detail_screen.color',
+    material: 'product_detail_screen.material',
+    weight: 'product_detail_screen.weight',
+    volume: 'product_detail_screen.volume',
+    structure: 'product_detail_screen.structure',
+    fireResistant: 'product_detail_screen.fire_resistant',
+    waterResistant: 'product_detail_screen.water_resistant',
+    applications: 'product_detail_screen.applications',
+    error: 'product_detail_screen.error',
+    description: 'product_detail_screen.description',
+    certificates: 'product_detail_screen.certificates',
+    price: 'product_detail_screen.price',
+    days: 'product_detail_screen.days',
+    stillAvailable: 'product_detail_screen.still_available',
+    unavailable: 'product_detail_screen.unavailable',
+    month: 'product_detail_screen.month'
+  );
+  final supplierInfoScreen = (
+    info: 'supplier_info_screen.info',
+    products: 'supplier_info_screen.products',
+    description: 'supplier_info_screen.description',
+    address: 'supplier_info_screen.address',
+    establishAt: 'supplier_info_screen.establish_at',
+    noName: 'supplier_info_screen.no_name',
+    noDescription: 'supplier_info_screen.no_description',
+    readMore: 'supplier_info_screen.read_more',
+    showLess: 'supplier_info_screen.show_less',
+  );
+  final filterScreen = (
+    filter: 'filter_screen.filter',
+    reset: 'filter_screen.reset',
+    productType: 'filter_screen.product_type',
+    priceRange: 'filter_screen.price_range',
+    min: 'filter_screen.min',
+    max: 'filter_screen.max',
+    zeroPlus: 'filter_screen.0+',
+    compulsory: 'filter_screen.compulsory',
+    invalid: 'filter_screen.invalid',
+    rating: 'filter_screen.rating',
+  );
+  final newsScreen = (
+    newspaper: 'news_screen.newspaper',
+    news: 'news_screen.news',
+    all: 'news_screen.all',
+    recent: 'news_screen.recent',
+    fields: 'news_screen.fields',
+    products: 'news_screen.products',
+    minutesAgo: 'news_screen.minutes_ago',
+    hoursAgo : 'news_screen.hours_ago',
+    daysAgo : 'news_screen.days_ago',
+  );
+}
